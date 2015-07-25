@@ -14,6 +14,13 @@
 		10DDEA481B63A9270049814E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DDEA471B63A9270049814E /* Images.xcassets */; };
 		10DDEA4B1B63A9270049814E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10DDEA491B63A9270049814E /* LaunchScreen.xib */; };
 		10DDEA571B63A9270049814E /* AdapterPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DDEA561B63A9270049814E /* AdapterPatternTests.m */; };
+		10DDEA651B63A9480049814E /* BusinessCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DDEA611B63A9480049814E /* BusinessCardView.m */; };
+		10DDEA661B63A9480049814E /* BusinessCardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DDEA641B63A9480049814E /* BusinessCardAdapter.m */; };
+		10DDEA6A1B63A9D90049814E /* NormalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DDEA691B63A9D90049814E /* NormalModel.m */; };
+		10DDEA6D1B63AA310049814E /* NormalModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DDEA6C1B63AA310049814E /* NormalModelAdapter.m */; };
+		10DDEA711B63AB880049814E /* SpecialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DDEA701B63AB880049814E /* SpecialModel.m */; };
+		10DDEA741B63AD480049814E /* SpecialModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DDEA731B63AD480049814E /* SpecialModelAdapter.m */; };
+		10DDEA781B63AF830049814E /* CommonUsedAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DDEA771B63AF830049814E /* CommonUsedAdapter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,21 @@
 		10DDEA501B63A9270049814E /* AdapterPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdapterPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DDEA551B63A9270049814E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10DDEA561B63A9270049814E /* AdapterPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterPatternTests.m; sourceTree = "<group>"; };
+		10DDEA601B63A9480049814E /* BusinessCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardView.h; sourceTree = "<group>"; };
+		10DDEA611B63A9480049814E /* BusinessCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCardView.m; sourceTree = "<group>"; };
+		10DDEA621B63A9480049814E /* BusinessCardAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardAdapterProtocol.h; sourceTree = "<group>"; };
+		10DDEA631B63A9480049814E /* BusinessCardAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardAdapter.h; sourceTree = "<group>"; };
+		10DDEA641B63A9480049814E /* BusinessCardAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessCardAdapter.m; sourceTree = "<group>"; };
+		10DDEA681B63A9D90049814E /* NormalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalModel.h; sourceTree = "<group>"; };
+		10DDEA691B63A9D90049814E /* NormalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalModel.m; sourceTree = "<group>"; };
+		10DDEA6B1B63AA310049814E /* NormalModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalModelAdapter.h; sourceTree = "<group>"; };
+		10DDEA6C1B63AA310049814E /* NormalModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalModelAdapter.m; sourceTree = "<group>"; };
+		10DDEA6F1B63AB880049814E /* SpecialModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialModel.h; sourceTree = "<group>"; };
+		10DDEA701B63AB880049814E /* SpecialModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialModel.m; sourceTree = "<group>"; };
+		10DDEA721B63AD480049814E /* SpecialModelAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialModelAdapter.h; sourceTree = "<group>"; };
+		10DDEA731B63AD480049814E /* SpecialModelAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialModelAdapter.m; sourceTree = "<group>"; };
+		10DDEA761B63AF830049814E /* CommonUsedAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUsedAdapter.h; sourceTree = "<group>"; };
+		10DDEA771B63AF830049814E /* CommonUsedAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUsedAdapter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +105,13 @@
 			children = (
 				10DDEA3E1B63A9270049814E /* AppDelegate.h */,
 				10DDEA3F1B63A9270049814E /* AppDelegate.m */,
+				10DDEA761B63AF830049814E /* CommonUsedAdapter.h */,
+				10DDEA771B63AF830049814E /* CommonUsedAdapter.m */,
 				10DDEA411B63A9270049814E /* ViewController.h */,
 				10DDEA421B63A9270049814E /* ViewController.m */,
+				10DDEA751B63AEBA0049814E /* SpecialModel */,
+				10DDEA6E1B63AB6D0049814E /* NormalModel */,
+				10DDEA671B63A94A0049814E /* BusinessCard */,
 				10DDEA441B63A9270049814E /* Main.storyboard */,
 				10DDEA471B63A9270049814E /* Images.xcassets */,
 				10DDEA491B63A9270049814E /* LaunchScreen.xib */,
@@ -117,6 +144,40 @@
 				10DDEA551B63A9270049814E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10DDEA671B63A94A0049814E /* BusinessCard */ = {
+			isa = PBXGroup;
+			children = (
+				10DDEA601B63A9480049814E /* BusinessCardView.h */,
+				10DDEA611B63A9480049814E /* BusinessCardView.m */,
+				10DDEA631B63A9480049814E /* BusinessCardAdapter.h */,
+				10DDEA641B63A9480049814E /* BusinessCardAdapter.m */,
+				10DDEA621B63A9480049814E /* BusinessCardAdapterProtocol.h */,
+			);
+			name = BusinessCard;
+			sourceTree = "<group>";
+		};
+		10DDEA6E1B63AB6D0049814E /* NormalModel */ = {
+			isa = PBXGroup;
+			children = (
+				10DDEA681B63A9D90049814E /* NormalModel.h */,
+				10DDEA691B63A9D90049814E /* NormalModel.m */,
+				10DDEA6B1B63AA310049814E /* NormalModelAdapter.h */,
+				10DDEA6C1B63AA310049814E /* NormalModelAdapter.m */,
+			);
+			name = NormalModel;
+			sourceTree = "<group>";
+		};
+		10DDEA751B63AEBA0049814E /* SpecialModel */ = {
+			isa = PBXGroup;
+			children = (
+				10DDEA6F1B63AB880049814E /* SpecialModel.h */,
+				10DDEA701B63AB880049814E /* SpecialModel.m */,
+				10DDEA721B63AD480049814E /* SpecialModelAdapter.h */,
+				10DDEA731B63AD480049814E /* SpecialModelAdapter.m */,
+			);
+			name = SpecialModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +281,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				10DDEA431B63A9270049814E /* ViewController.m in Sources */,
+				10DDEA781B63AF830049814E /* CommonUsedAdapter.m in Sources */,
 				10DDEA401B63A9270049814E /* AppDelegate.m in Sources */,
+				10DDEA661B63A9480049814E /* BusinessCardAdapter.m in Sources */,
+				10DDEA711B63AB880049814E /* SpecialModel.m in Sources */,
+				10DDEA6D1B63AA310049814E /* NormalModelAdapter.m in Sources */,
+				10DDEA651B63A9480049814E /* BusinessCardView.m in Sources */,
+				10DDEA741B63AD480049814E /* SpecialModelAdapter.m in Sources */,
+				10DDEA6A1B63A9D90049814E /* NormalModel.m in Sources */,
 				10DDEA3D1B63A9270049814E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
