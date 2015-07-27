@@ -1,6 +1,6 @@
 # AdapterPattern
 
-> 适配器设计模式的完整实现
+> [适配器设计模式的完整实现](http://www.cnblogs.com/YouXianMing/p/4676508.html)
 
 ![demo1.png](http://images0.cnblogs.com/blog2015/607542/201507/252001541404482.png)
 ![demo2.png](http://images0.cnblogs.com/blog2015/607542/201507/252002007966847.png)
